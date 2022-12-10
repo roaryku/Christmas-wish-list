@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+.app{
+  background-color: #edf3ef;
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 50px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-image: url(https://images.unsplash.com/photo-1512389055488-8d82cb26ba6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fGNocmlzdG1hc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+  color:#253664 ;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bolder;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+ul, li{
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-family: 'Shadows Into Light', cursive;
+}
+.add {
+  background: #65aa06;
+  margin-top: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.delete {
+  background: #d30100;
+  margin-bottom: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+padding: 10px;
+border: none;
+width: 70%;
+color: white;
+font-size: 16px;
+font-family: 'Shadows Into Light', cursive;
+font-weight: bolder;
+border-radius: 20px;
 }
+
+input{
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+  font-family: 'Shadows Into Light', cursive;
+  border: none;
+  border-radius: 5px;
+}
+.image{
+  border-radius: 50%;
+}
+.imageTwo{
+  margin-top: 20px;
+  border-radius: 60px;
+}
+.crossed {
+  text-decoration: line-through 2px red;
+  text-decoration-line: line-through 2px red;
+  -webkit-text-decoration-line: line-through;
+  text-decoration-color: red;
+  -webkit-text-decoration-color: red;
+  background-color: white;
+  border-radius: 5px;
+  }
+  
+
